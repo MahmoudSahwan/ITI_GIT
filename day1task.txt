@@ -1,0 +1,93 @@
+Q1 what is git
+
+
+git is a tool to link the project from online repo to a local repo
+and local + Centralized = distributed 
+
+
+
+
+
+Q2 Git is the same as GitHub? false
+
+Q3  What is the command to get the installed version of Git?               git -v
+
+Q4 Which option should you use to set the default user name for every repository on your computer?  --global
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+ 
+
+Q5 What is the command to set the user email for the current repository?
+
+•	git config user.email
+git config user.email "your.email@example.com"
+
+
+--Q
+
+git add --all
+git add .
+
+
+git add filename
+
+git add file1.txt file2.js file3.css
+
+
+Q6  6.	What is the command to get the current status of the Git repository?
+
+•	git status
+
+Q7.	What is the command to initialize Git on the current repository?
+
+
+git init
+
+Q8.	Git automatically adds new files to the repository and starts tracking them.? 
+false
+
+9.	What is the command to commit the staged changes for the Git repository?
+
+git commit -m "my message"
+
+
+10 10.	What is the command to commit with the message "New email":
+
+git commit -m "new email"
+
+
+Q11 11.	What is the command to view the history of commits for the repository?
+
+git log
+
+
+
+Q12 12.	In Git, a branch is:  •	A separate version of the main repository
+
+
+Q13 13.	What is the command to create a new branch named "new-email"?
+
+git branch new-email
+
+
+Q14 14.	What is the command to move to the branch named "new-email"?
+
+git checkout new-email
+
+or 
+
+git switch new-email
+
+
+Q15 15.	What is the command to merge the current branch with the branch "new-email"?
+
+git merge new-email
+
+and suggested 
+
+to use 
+
+git diff new-email
+
+to compare before merge
